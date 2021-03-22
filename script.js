@@ -68,3 +68,4 @@ sizeBtn.addEventListener('click', () => {
 
 // This is ran when the page is accessed making the default a 16x16 grid
 createDivs(16);
+createDynamicBoxes();
