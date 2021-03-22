@@ -1,1 +1,3 @@
-# mgoncalves3.github.io
+# etch-a-sketch
+
+Odin Project
