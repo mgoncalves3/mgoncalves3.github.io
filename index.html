@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>The Odin Project - Etch-a-Sketch</title>
+    <title>Odin Project \\ Calculator</title>
 </head>
+
 <body>
     <header>
-        Etch-a-Sketch
+        <h1>The Odin Project \\ Calculator</h1>
     </header>
-    <div>
-        <button id='change-size-btn'>Change Size</button>
-    </div>
-    <div class='grid' id='container'>
+    <div class="body">
+        <div class="main-display">
+            <div class="numbers" id="display">0</div>
+        </div>
+        <div class="main-btns">
 
-    </div>
-    
-    <script src='script.js'></script>
+            <button class="btn function" id="clear" value="clear">C</button>
+            <button class="btn function" id="backspace" value="back">Del</button>
+            <button class="btn operations num" id="percent" value="%">%</button>
+            <button class="btn operations" id="divide" value="/">/</button>
+            <button class="btn num white" id="seven" value="7">7</button>
+            <button class="btn num white" id="eigth" value="8">8</button>
+
+            <button class="btn num white" id="nine" value="9">9</button>
+            <button class="btn operations" id="multiply" value="*">*</button>
+            <button class="btn num white" id="four" value="4">4</button>
+
+            <button class="btn num white" id="five" value="5">5</button>
+            <button class="btn num white" id="six" value="6">6</button>
+            <button class="btn operations" id="subtract" value="-">-</button>
+
+            <button class="btn num white" id="one" value="1">1</button>
+            <button class="btn num white" id="two" value="2">2</button>
+            <button class="btn num white" id="three" value="3">3</button>
+
+
+            <button class="btn operations" id="add" value="+">+</button>
+            <button class="btn operations" id="sign" value="-">+/-</button>
+            <button class="btn num white" id="zero" value="0">0</button>
+            <button class="btn operations num" id="point" value=".">.</button>
+            <button class="btn orange operations" id="equals" value="=">=</button>
+
+        </div>
+
+        <script src="script1.js"></script>
 </body>
+
 </html>

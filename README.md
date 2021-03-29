@@ -1,3 +1,1 @@
-# etch-a-sketch
-
-Odin Project
+# calculator
